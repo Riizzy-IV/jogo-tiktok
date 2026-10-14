@@ -1,0 +1,11 @@
+{
+  "name": "Urna Interativa",
+  "description": "Disputa entre dois candidatos: cada presente vira pontos na urna, e a mãozinha digita o voto na hora. Tem cronômetro e tela de eleito.",
+  "icon": "🗳️",
+  "cover": "cover.png",
+  "coverColor": "linear-gradient(135deg, #1e6fd9 0%, #cddbea 50%, #e0262f 100%)",
+  "genre": "Votação",
+  "inputs": ["Presentes", "Comentários"],
+  "orientation": "portrait",
+  "controls": ["🎁 presente = pontos", "💬 número = 1 ponto", "⚙️ tecla C configura"]
+}

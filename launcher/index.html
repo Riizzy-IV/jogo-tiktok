@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' http://localhost:* data:; style-src 'self' 'unsafe-inline'">
+  <title>Live Arcade</title>
+  <link rel="stylesheet" href="launcher.css">
+</head>
+<body>
+  <div class="app">
+    <!-- ===== Menu lateral ===== -->
+    <aside class="sidebar">
+      <div class="logo drag"><div class="logo-mark">LIVE<br>ARCADE</div></div>
+
+      <nav class="nav">
+        <button class="nav-item active" data-page="library">
+          <svg viewBox="0 0 24 24"><path d="M5 4v16M9 4v16M13.5 4.5l5.5 1.5-4 14-5.5-1.5z"/></svg>
+          Biblioteca
+        </button>
+        <button class="nav-item" data-page="live">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="2.5"/><path d="M7.8 7.8a6 6 0 0 0 0 8.4M16.2 7.8a6 6 0 0 1 0 8.4M4.9 4.9a10 10 0 0 0 0 14.2M19.1 4.9a10 10 0 0 1 0 14.2"/></svg>
+          Ao Vivo
+          <span class="nav-dot" id="nav-dot"></span>
+        </button>
+      </nav>
+
+      <div class="quick">
+        <div class="quick-title">INICIALIZAÇÃO RÁPIDA</div>
+        <div id="quick-list"></div>
+      </div>
+
+      <button class="side-status" id="side-status" title="Ir para Ao Vivo">
+        <span class="dot"></span><span id="side-status-text">Desconectado</span>
+      </button>
+    </aside>
+
+    <!-- ===== Conteúdo ===== -->
+    <div class="main">
+      <header class="topbar drag">
+        <button class="icon-btn no-drag" id="back" title="Voltar">
+          <svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>
+        </button>
+        <label class="search no-drag">
+          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"/><path d="M20 20l-4.5-4.5"/></svg>
+          <input id="search" placeholder="Pesquisar jogos" spellcheck="false">
+        </label>
+        <div class="topbar-right no-drag">
+          <button class="icon-btn" id="top-live" title="Ao Vivo">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="2.5"/><path d="M7.8 7.8a6 6 0 0 0 0 8.4M16.2 7.8a6 6 0 0 1 0 8.4"/></svg>
+          </button>
+          <div class="sep"></div>
+          <div class="avatar" id="avatar" title="Conta TikTok">?</div>
+        </div>
+      </header>
+
+      <div class="scroll">
+        <!-- ===== Biblioteca ===== -->
+        <section class="page" id="page-library">
+          <div class="page-title">
+            <h1>Biblioteca</h1>
+            <button class="icon-btn" id="refresh" title="Atualizar biblioteca">
+              <svg viewBox="0 0 24 24"><path d="M20 11a8 8 0 0 0-14.3-4.9M4 13a8 8 0 0 0 14.3 4.9M5 3v4h4M19 21v-4h-4"/></svg>
+            </button>
+          </div>
+
+          <div class="banner" id="banner">
+            <div class="banner-art">📡</div>
+            <div class="banner-text">
+              <strong>Conecte sua live para começar</strong>
+              <p>Digite seu @ do TikTok em Ao Vivo, ou ligue a simulação para testar os jogos sem estar transmitindo. Comentários e presentes do público controlam os jogos em tempo real.</p>
+            </div>
+            <div class="banner-actions">
+              <button class="btn" id="banner-dismiss">Dispensar</button>
+              <button class="btn accent" id="banner-go">Conectar live</button>
+            </div>
+          </div>
+
+          <div class="tabs">
+            <button class="tab active" data-tab="all">Tudo</button>
+            <button class="tab" data-tab="fav">Favoritos</button>
+          </div>
+
+          <div class="library">
+            <div class="library-main">
+              <div class="toolbar">
+                <label class="sort">Classificar por:
+                  <select id="sort">
+                    <option value="recent">Jogado recentemente</option>
+                    <option value="az">Alfabética A-Z</option>
+                    <option value="za">Alfabética Z-A</option>
+                  </select>
+                </label>
+                <div class="view-toggle">
+                  <button class="icon-btn active" data-view="grid" title="Grade">
+                    <svg viewBox="0 0 24 24"><rect x="4" y="4" width="6" height="6" rx="1.5"/><rect x="14" y="4" width="6" height="6" rx="1.5"/><rect x="4" y="14" width="6" height="6" rx="1.5"/><rect x="14" y="14" width="6" height="6" rx="1.5"/></svg>
+                  </button>
+                  <button class="icon-btn" data-view="list" title="Lista">
+                    <svg viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r="1"/><circle cx="4.5" cy="12" r="1"/><circle cx="4.5" cy="18" r="1"/></svg>
+                  </button>
+                </div>
+              </div>
+              <div class="games grid" id="games"></div>
+              <div class="count" id="count"></div>
+            </div>
+
+            <aside class="filters">
+              <div class="filters-head">
+                <strong id="filters-title">Filtros</strong>
+                <button class="link" id="filters-reset">Redefinir</button>
+              </div>
+              <label class="filter-search">
+                <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"/><path d="M20 20l-4.5-4.5"/></svg>
+                <input id="filter-title" placeholder="Título" spellcheck="false">
+              </label>
+              <div class="filter-group" data-key="genre">
+                <button class="filter-toggle">Gênero <svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></button>
+                <div class="filter-options"></div>
+              </div>
+              <div class="filter-group" data-key="inputs">
+                <button class="filter-toggle">Interação <svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></button>
+                <div class="filter-options"></div>
+              </div>
+              <div class="filter-group" data-key="orientation">
+                <button class="filter-toggle">Formato <svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></button>
+                <div class="filter-options"></div>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <!-- ===== Ao Vivo ===== -->
+        <section class="page hidden" id="page-live">
+          <div class="page-title"><h1>Ao Vivo</h1></div>
+
+          <div class="live-grid">
+            <div class="live-col">
+              <div class="panel">
+                <div class="panel-head">
+                  <h2>Fonte dos eventos</h2>
+                  <div class="seg" id="mode">
+                    <button data-mode="sim" class="active">Simulação</button>
+                    <button data-mode="tiktok">TikTok ao vivo</button>
+                  </div>
+                </div>
+
+                <div data-panel="sim">
+                  <p class="hint">Gera comentários, curtidas e presentes falsos para testar os jogos sem estar ao vivo.</p>
+                  <div class="row">
+                    <div class="seg" id="rate">
+                      <button data-rate="calmo">Calmo</button>
+                      <button data-rate="normal" class="active">Normal</button>
+                      <button data-rate="frenesi">Frenesi</button>
+                    </div>
+                    <button class="btn accent" id="sim-toggle">Iniciar simulação</button>
+                  </div>
+                </div>
+
+                <div data-panel="tiktok" class="hidden">
+                  <p class="hint">Digite o @ de quem está ao vivo agora. A conexão usa uma API não-oficial e pode oscilar.</p>
+                  <div class="row">
+                    <label class="input-at"><span>@</span><input id="username" placeholder="seu_usuario" spellcheck="false"></label>
+                    <button class="btn accent" id="tt-toggle">Conectar</button>
+                  </div>
+                </div>
+
+                <div class="live-status" id="live-status"><span class="dot"></span><span id="live-status-text">Desconectado</span></div>
+              </div>
+
+              <div class="panel">
+                <div class="panel-head"><h2>Enviar evento de teste</h2></div>
+                <div class="test-grid">
+                  <input id="t-user" placeholder="usuário" value="marcelo_teste" spellcheck="false">
+                  <div class="row">
+                    <input id="t-comment" placeholder="comentário (ex.: carro)" spellcheck="false">
+                    <button class="btn" id="t-send-comment">Comentar</button>
+                  </div>
+                  <div class="row">
+                    <select id="t-gift"></select>
+                    <input id="t-count" type="number" min="1" max="99" value="1">
+                    <button class="btn" id="t-send-gift">Presentear</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel">
+                <div class="panel-head"><h2>Jogos recebendo eventos</h2><span class="muted" id="clients">0</span></div>
+                <p class="hint">Cada jogo aberto (janela ou fonte de navegador no OBS) aparece aqui.</p>
+              </div>
+            </div>
+
+            <div class="live-col">
+              <div class="stats">
+                <div class="stat"><div class="stat-val" id="st-comment">0</div><div class="stat-lbl">Comentários</div></div>
+                <div class="stat"><div class="stat-val" id="st-gift">0</div><div class="stat-lbl">Presentes</div></div>
+                <div class="stat"><div class="stat-val" id="st-coins">0</div><div class="stat-lbl">Moedas</div></div>
+                <div class="stat"><div class="stat-val" id="st-like">0</div><div class="stat-lbl">Curtidas</div></div>
+              </div>
+              <div class="panel feed-panel">
+                <div class="panel-head">
+                  <h2>Eventos ao vivo</h2>
+                  <button class="btn small" id="clear-feed">Limpar</button>
+                </div>
+                <ul class="feed" id="feed"></ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <div class="menu hidden" id="menu"></div>
+  <div class="toast hidden" id="toast"></div>
+
+  <script src="launcher.js"></script>
+</body>
+</html>

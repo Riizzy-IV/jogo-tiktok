@@ -1,0 +1,11 @@
+{
+  "name": "Corrida Maluca",
+  "description": "Cada comentário coloca um corredor na pista. Presentes dão turbo, e presentes grandes soltam um raio no líder.",
+  "icon": "🏁",
+  "cover": "cover.png",
+  "coverColor": "linear-gradient(135deg, #fe2c55 0%, #7a1fd6 55%, #25f4ee 100%)",
+  "genre": "Corrida",
+  "inputs": ["Comentários", "Presentes", "Curtidas"],
+  "orientation": "portrait",
+  "controls": ["💬 carro / moto", "🎁 turbo", "⚡ 100+ moedas", "❤️ empurrão"]
+}

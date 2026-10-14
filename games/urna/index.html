@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Urna Interativa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stage" id="stage">
+    <div class="corner">
+      <div class="test-badge hidden" id="test-badge">MODO TESTE</div>
+      <div class="conn" id="conn"><span></span><b>SEM LAUNCHER</b></div>
+    </div>
+
+    <img class="logo" id="logo" src="img/logo.png" alt="">
+    <h1 class="title hidden" id="title">URNA INTERATIVA</h1>
+
+    <div class="headline">
+      <img class="vote-badge" id="badge-0" alt="">
+      <div class="clock" id="clock">05:00</div>
+      <img class="vote-badge" id="badge-1" alt="">
+    </div>
+
+    <div class="summary">
+      <div class="sum-box"><small>TOTAL</small><b id="sum-total">0</b></div>
+      <div class="sum-sep"></div>
+      <div class="sum-box"><small>DIFERENÇA</small><b id="sum-diff">0</b></div>
+      <div class="sum-status" id="sum-status">EMPATE</div>
+    </div>
+
+    <div class="cards" id="cards"></div>
+
+    <div class="table">
+      <div class="urnas" id="urnas"></div>
+      <div class="table-top"></div>
+      <div class="table-front"></div>
+    </div>
+
+    <div class="winner hidden" id="winner">
+      <div class="winner-card">
+        <div class="winner-tag">ELEITO!</div>
+        <div class="winner-photo" id="winner-photo"></div>
+        <div class="winner-num" id="winner-num"></div>
+        <div class="winner-name" id="winner-name"></div>
+        <div class="winner-votes" id="winner-votes"></div>
+      </div>
+    </div>
+    <canvas class="fx" id="fx" width="1080" height="1920"></canvas>
+  </div>
+
+  <button class="gear" id="gear" title="Configurar (tecla C)">⚙</button>
+
+  <!-- Painel de configuração (só aparece na janela, não na captura) -->
+  <div class="config hidden" id="config">
+    <div class="config-card">
+      <div class="config-head">
+        <div class="cfg-tabs" id="cfg-tabs">
+          <button data-tab="cands" class="active">Candidatos</button>
+          <button data-tab="gifts">Presentes <span id="gift-count"></span></button>
+          <button data-tab="rules">Regras</button>
+        </div>
+        <button class="x" id="cfg-close" title="Fechar">✕</button>
+      </div>
+
+      <div class="config-body">
+        <section data-pane="cands" id="pane-cands"></section>
+
+        <section data-pane="gifts" class="hidden">
+          <div class="gift-tools">
+            <label class="search"><span>🔍</span><input id="gift-search" placeholder="Buscar presente pelo nome"></label>
+            <div class="chips" id="gift-filter"></div>
+          </div>
+          <div class="gift-tools">
+            <input id="gift-new" placeholder="Nome do presente (como aparece na live)">
+            <input id="gift-new-coins" type="number" min="1" value="1" title="Moedas">
+            <button class="btn accent" id="gift-add">+ Adicionar presente</button>
+          </div>
+          <div class="gift-list" id="gift-list"></div>
+          <div class="gift-tools foot">
+            <button class="btn" id="gift-defaults">Restaurar padrão</button>
+            <span class="note">Presentes recebidos na live entram aqui sozinhos, sem candidato, para você escolher.</span>
+          </div>
+        </section>
+
+        <section data-pane="rules" class="hidden">
+          <div class="grid2">
+            <label class="field">Duração da rodada (min, 0 = sem cronômetro) <input type="number" id="cfg-round" min="0" max="180"></label>
+            <label class="field">Nome usado no teste <input id="cfg-tester" maxlength="24"></label>
+            <label class="check"><input type="checkbox" id="cfg-comment"> Comentar o número vale 1 ponto</label>
+            <label class="field">Intervalo entre votos por comentário (s) <input type="number" id="cfg-cooldown" min="0" max="60"></label>
+            <label class="check"><input type="checkbox" id="cfg-hands"> Mãozinha apertando as teclas</label>
+          </div>
+          <p class="note">Presentes que não estão ligados a nenhum candidato contam para o número que a pessoa comentou por último.</p>
+        </section>
+      </div>
+
+      <div class="config-foot">
+        <button class="btn danger" id="cfg-reset">Zerar votos</button>
+        <span class="grow"></span>
+        <button class="btn" id="cfg-cancel">Cancelar</button>
+        <button class="btn accent" id="cfg-save">Salvar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>

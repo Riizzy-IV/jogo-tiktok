@@ -1,0 +1,32 @@
+{
+  "name": "live-arcade-launcher",
+  "version": "0.1.0",
+  "description": "Launcher de jogos interativos para TikTok LIVE",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win"
+  },
+  "build": {
+    "appId": "br.com.livearcade.launcher",
+    "productName": "Live Arcade",
+    "files": [
+      "main.js",
+      "preload.js",
+      "src/**",
+      "launcher/**",
+      "games/**"
+    ],
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "dependencies": {
+    "tiktok-live-connector": "^2.5.0",
+    "ws": "^8.22.0"
+  },
+  "devDependencies": {
+    "electron": "^44.7.2",
+    "electron-builder": "^26.15.3"
+  }
+}

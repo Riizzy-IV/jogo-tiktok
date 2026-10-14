@@ -1,0 +1,11 @@
+Coloque aqui as fotos dos candidatos, com o NÚMERO do candidato como nome do arquivo:
+
+  22.jpg   -> foto do candidato 22
+  13.jpg   -> foto do candidato 13
+
+Também aceita .png, .jpeg e .webp. De preferência foto vertical (retrato), rosto centralizado.
+Depois é só reabrir o jogo (ou apertar Ctrl+R na janela da urna).
+
+Se uma foto for escolhida pelo painel do jogo (tecla C), ela tem prioridade sobre a desta pasta.
+
+Use apenas fotos que você tem direito de usar (ex.: fotos oficiais liberadas ou da Agência Brasil, com crédito).

@@ -1,0 +1,11 @@
+# Dependências (reinstale com: npm install)
+node_modules/
+
+# Instalador gerado pelo electron-builder
+dist/
+
+# Sistema / editor
+*.log
+Thumbs.db
+desktop.ini
+.DS_Store
