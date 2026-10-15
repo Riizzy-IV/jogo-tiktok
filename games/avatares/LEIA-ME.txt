@@ -1,0 +1,39 @@
+AVATARES DA LIVE (Roblox)
+=========================
+
+Quem comenta o nick do Roblox na live aparece dançando no palco com a skin de verdade.
+Presentes: Rosa = dança especial · 5+ moedas = aura · 100+ = avatar gigante · Galáxia / 1000+ = chuva de avatares.
+Quem manda presente sem ter comentado o nick entra com um avatar padrão e o nome do TikTok.
+
+PRIMEIRA VEZ
+1. Instale o Roblox Studio (create.roblox.com) e entre na sua conta.
+2. No Live Arcade, clique em Jogar no "Avatares da Live". O Studio abre o mapa.
+   (Se o Windows perguntar com qual programa abrir, escolha o Roblox Studio.)
+3. O mapa já vem com HTTP ligado. Se ao apertar Play aparecer "Ative ... Allow HTTP Requests":
+   - Home > Game Settings > Security > ligue "Allow HTTP Requests" (o Studio pode pedir para
+     publicar o jogo antes; pode publicar como privado), OU
+   - View > Command Bar, cole a linha abaixo, aperte Enter e salve o arquivo (Ctrl+S):
+     game:GetService("HttpService").HttpEnabled = true
+
+TODA LIVE
+1. Abra o Live Arcade e conecte a live (ou use a simulação para testar).
+2. No Studio, aperte Play (F5). No canto de baixo deve aparecer "● Conectado à live" em verde.
+3. No TikTok LIVE Studio / OBS, capture a janela do Roblox Studio (sem capturar o cursor).
+   A cena é feita para live vertical: no Play, aperte G para ver a moldura amarela da faixa 9:16,
+   recorte a captura exatamente nela e aperte G de novo para esconder.
+   Com os painéis do Studio fechados e a janela maximizada, a faixa fica maior e com mais qualidade.
+
+TESTAR SEM LIVE
+No launcher, aba Ao Vivo > eventos de teste: comente um nick real do Roblox (ex.: Builderman)
+e mande presentes com o mesmo nome de usuário.
+
+PERSONALIZAR
+- O palco é a peça "Palco" no Workspace: pode trocar por um mapa seu, desde que se chame Palco.
+- A câmera é a peça invisível "CameraLive": mova e gire no Studio para mudar o enquadramento.
+- Presentes, limites e tempos ficam no começo do script ServerScriptService > AvataresDaLive (bloco CFG).
+- Se editar os arquivos da pasta roblox/, rode "npm run build:roblox" para gerar o .rbxlx de novo.
+  (Isso substitui o mapa; se você montou um cenário no Studio, salve o seu próprio arquivo.)
+
+LIMITAÇÃO
+Só funciona no Roblox Studio deste computador: um jogo publicado roda nos servidores do Roblox
+e não consegue falar com o Live Arcade no seu PC.

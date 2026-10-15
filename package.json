@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "dist": "electron-builder --win"
+    "dist": "electron-builder --win",
+    "build:roblox": "node games/avatares/build-place.js"
   },
   "build": {
     "appId": "br.com.livearcade.launcher",
@@ -16,6 +17,9 @@
       "src/**",
       "launcher/**",
       "games/**"
+    ],
+    "asarUnpack": [
+      "games/**/*.rbxlx"
     ],
     "win": {
       "target": "nsis"

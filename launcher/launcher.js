@@ -193,10 +193,12 @@ async function loadGames() {
   renderQuick();
 }
 
-function play(id) {
+async function play(id) {
   recent[id] = Date.now();
   store.set('recent', recent);
-  window.live.play(id);
+  const res = await window.live.play(id);
+  if (res?.error) toast(res.error);
+  else if (res?.roblox) toast('Abrindo no Roblox Studio. Quando carregar, aperte Play (F5).');
   renderQuick();
   if (ui.sort === 'recent') renderLibrary();
 }
@@ -235,11 +237,17 @@ function openMenu(anchor, g) {
     ['<svg viewBox="0 0 24 24"><path d="M7 4l12 8-12 8z"/></svg>', 'Jogar', () => play(g.id)],
     [`<svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"${fav ? ' fill="currentColor"' : ''}/></svg>`,
       fav ? 'Remover dos favoritos' : 'Adicionar aos favoritos', () => toggleFav(g.id)],
-    ['<svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="12" rx="2"/><path d="M8 21h8M12 17v4"/></svg>', 'Abrir no navegador', () => window.live.openInBrowser(g.id)],
-    ['<svg viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3"/></svg>', 'Copiar link para o OBS', () => {
-      navigator.clipboard.writeText(g.url).then(() => toast('Link copiado. No OBS: Fonte > Navegador > cole a URL'));
-    }],
   ];
+  if (g.platform === 'roblox') {
+    items.push(['<svg viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>', 'Mostrar arquivo do mapa', () => window.live.reveal(g.id)]);
+  } else {
+    items.push(
+      ['<svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="12" rx="2"/><path d="M8 21h8M12 17v4"/></svg>', 'Abrir no navegador', () => window.live.openInBrowser(g.id)],
+      ['<svg viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3"/></svg>', 'Copiar link para o OBS', () => {
+        navigator.clipboard.writeText(g.url).then(() => toast('Link copiado. No OBS: Fonte > Navegador > cole a URL'));
+      }],
+    );
+  }
   for (const [icon, label, fn] of items) {
     const b = document.createElement('button');
     b.innerHTML = icon;

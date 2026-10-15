@@ -4,6 +4,10 @@ node_modules/
 # Instalador gerado pelo electron-builder
 dist/
 
+# Trava criada pelo Roblox Studio enquanto o mapa está aberto
+*.rbxlx.lock
+*.rbxl.lock
+
 # Sistema / editor
 *.log
 Thumbs.db

@@ -1,0 +1,12 @@
+{
+  "name": "Avatares da Live",
+  "description": "Jogo no Roblox: quem comenta o nick do Roblox aparece dançando no palco com a skin de verdade. Presentes dão dança especial, aura, avatar gigante e chuva de avatares.",
+  "icon": "💃",
+  "coverColor": "linear-gradient(135deg, #00a2ff 0%, #7a1fd6 55%, #25f4ee 100%)",
+  "genre": "Roblox",
+  "inputs": ["Comentários", "Presentes"],
+  "orientation": "landscape",
+  "platform": "roblox",
+  "place": "AvataresDaLive.rbxlx",
+  "controls": ["💬 nick do Roblox = dançar", "🌹 dança especial", "✨ aura", "🌌 chuva de avatares"]
+}

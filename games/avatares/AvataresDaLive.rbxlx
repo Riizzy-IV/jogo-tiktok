@@ -1,0 +1,891 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" version="4"><Item class="Workspace" referent="RBX65"><Properties><string name="Name">Workspace</string></Properties><Item class="Part" referent="RBX63"><Properties><string name="Name">Chao</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>0</X><Y>-1</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>600</X><Y>2</Y><Z>600</Z></Vector3><Color3uint8 name="Color3uint8">4279242268</Color3uint8><token name="Material">272</token><token name="TopSurface">0</token><token name="BottomSurface">0</token></Properties></Item><Item class="Model" referent="RBX5"><Properties><string name="Name">Palco</string></Properties><Item class="Part" referent="RBX1"><Properties><string name="Name">Degrau1</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>0</X><Y>0.75</Y><Z>12</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>20</X><Y>1.5</Y><Z>8</Z></Vector3><Color3uint8 name="Color3uint8">4281214036</Color3uint8><token name="Material">272</token><token name="TopSurface">0</token><token name="BottomSurface">0</token></Properties></Item><Item class="Part" referent="RBX2"><Properties><string name="Name">Degrau2</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>0</X><Y>1.5</Y><Z>4</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>20</X><Y>3</Y><Z>8</Z></Vector3><Color3uint8 name="Color3uint8">4280819786</Color3uint8><token name="Material">272</token><token name="TopSurface">0</token><token name="BottomSurface">0</token></Properties></Item><Item class="Part" referent="RBX3"><Properties><string name="Name">Degrau3</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>0</X><Y>2.25</Y><Z>-4</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>20</X><Y>4.5</Y><Z>8</Z></Vector3><Color3uint8 name="Color3uint8">4281214036</Color3uint8><token name="Material">272</token><token name="TopSurface">0</token><token name="BottomSurface">0</token></Properties></Item><Item class="Part" referent="RBX4"><Properties><string name="Name">Degrau4</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>0</X><Y>3</Y><Z>-12</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>20</X><Y>6</Y><Z>8</Z></Vector3><Color3uint8 name="Color3uint8">4280819786</Color3uint8><token name="Material">272</token><token name="TopSurface">0</token><token name="BottomSurface">0</token></Properties></Item></Item><Item class="Folder" referent="RBX64"><Properties><string name="Name">Cenario</string></Properties><Item class="Part" referent="RBX7"><Properties><string name="Name">NeonDegrau1</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>0</X><Y>1.35</Y><Z>16.05</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>20</X><Y>0.3</Y><Z>0.3</Z></Vector3><Color3uint8 name="Color3uint8">4280677614</Color3uint8><token name="Material">288</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CanCollide">false</bool><bool name="CanQuery">false</bool><bool name="CastShadow">false</bool></Properties><Item class="PointLight" referent="RBX6"><Properties><string name="Name">Luz</string><Color3 name="Color"><R>0.1450980392156863</R><G>0.9568627450980393</G><B>0.9333333333333333</B></Color3><float name="Range">10</float><float name="Brightness">1.2</float></Properties></Item></Item><Item class="Part" referent="RBX9"><Properties><string name="Name">NeonDegrau2</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>0</X><Y>2.85</Y><Z>8.05</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>20</X><Y>0.3</Y><Z>0.3</Z></Vector3><Color3uint8 name="Color3uint8">4294847573</Color3uint8><token name="Material">288</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CanCollide">false</bool><bool name="CanQuery">false</bool><bool name="CastShadow">false</bool></Properties><Item class="PointLight" referent="RBX8"><Properties><string name="Name">Luz</string><Color3 name="Color"><R>0.996078431372549</R><G>0.17254901960784313</G><B>0.3333333333333333</B></Color3><float name="Range">10</float><float name="Brightness">1.2</float></Properties></Item></Item><Item class="Part" referent="RBX11"><Properties><string name="Name">NeonDegrau3</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>0</X><Y>4.35</Y><Z>0.05</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>20</X><Y>0.3</Y><Z>0.3</Z></Vector3><Color3uint8 name="Color3uint8">4294955583</Color3uint8><token name="Material">288</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CanCollide">false</bool><bool name="CanQuery">false</bool><bool name="CastShadow">false</bool></Properties><Item class="PointLight" referent="RBX10"><Properties><string name="Name">Luz</string><Color3 name="Color"><R>1</R><G>0.8235294117647058</G><B>0.24705882352941178</B></Color3><float name="Range">10</float><float name="Brightness">1.2</float></Properties></Item></Item><Item class="Part" referent="RBX13"><Properties><string name="Name">NeonDegrau4</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>0</X><Y>5.85</Y><Z>-7.95</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>20</X><Y>0.3</Y><Z>0.3</Z></Vector3><Color3uint8 name="Color3uint8">4288041215</Color3uint8><token name="Material">288</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CanCollide">false</bool><bool name="CanQuery">false</bool><bool name="CastShadow">false</bool></Properties><Item class="PointLight" referent="RBX12"><Properties><string name="Name">Luz</string><Color3 name="Color"><R>0.5882352941176471</R><G>0.3137254901960784</G><B>1</B></Color3><float name="Range">10</float><float name="Brightness">1.2</float></Properties></Item></Item><Item class="Part" referent="RBX15"><Properties><string name="Name">NeonFrente</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>0</X><Y>0.1</Y><Z>17.5</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>24</X><Y>0.2</Y><Z>0.6</Z></Vector3><Color3uint8 name="Color3uint8">4280677614</Color3uint8><token name="Material">288</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CanCollide">false</bool><bool name="CanQuery">false</bool><bool name="CastShadow">false</bool></Properties><Item class="PointLight" referent="RBX14"><Properties><string name="Name">Luz</string><Color3 name="Color"><R>0.1450980392156863</R><G>0.9568627450980393</G><B>0.9333333333333333</B></Color3><float name="Range">12</float><float name="Brightness">1.2</float></Properties></Item></Item><Item class="Part" referent="RBX16"><Properties><string name="Name">Telao</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>0</X><Y>14.5</Y><Z>-17</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>22</X><Y>16</Y><Z>1</Z></Vector3><Color3uint8 name="Color3uint8">4278848018</Color3uint8><token name="Material">272</token><token name="TopSurface">0</token><token name="BottomSurface">0</token></Properties></Item><Item class="Part" referent="RBX17"><Properties><string name="Name">BaseTelao</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>0</X><Y>3.25</Y><Z>-17</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>24</X><Y>6.5</Y><Z>1.4</Z></Vector3><Color3uint8 name="Color3uint8">4279768612</Color3uint8><token name="Material">1088</token><token name="TopSurface">0</token><token name="BottomSurface">0</token></Properties></Item><Item class="Part" referent="RBX18"><Properties><string name="Name">NeonMolduraTopo</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>0</X><Y>22.8</Y><Z>-16.4</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>23.2</X><Y>0.6</Y><Z>0.4</Z></Vector3><Color3uint8 name="Color3uint8">4294847573</Color3uint8><token name="Material">288</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CanCollide">false</bool><bool name="CanQuery">false</bool><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX19"><Properties><string name="Name">NeonMolduraBase</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>0</X><Y>6.2</Y><Z>-16.4</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>23.2</X><Y>0.6</Y><Z>0.4</Z></Vector3><Color3uint8 name="Color3uint8">4294847573</Color3uint8><token name="Material">288</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CanCollide">false</bool><bool name="CanQuery">false</bool><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX20"><Properties><string name="Name">NeonMolduraEsq</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-11.3</X><Y>14.5</Y><Z>-16.4</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.6</X><Y>17.2</Y><Z>0.4</Z></Vector3><Color3uint8 name="Color3uint8">4294847573</Color3uint8><token name="Material">288</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CanCollide">false</bool><bool name="CanQuery">false</bool><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX21"><Properties><string name="Name">NeonMolduraDir</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>11.3</X><Y>14.5</Y><Z>-16.4</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.6</X><Y>17.2</Y><Z>0.4</Z></Vector3><Color3uint8 name="Color3uint8">4294847573</Color3uint8><token name="Material">288</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CanCollide">false</bool><bool name="CanQuery">false</bool><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX22"><Properties><string name="Name">TorreEsq</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-13</X><Y>14</Y><Z>-4</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>1.4</X><Y>28</Y><Z>1.4</Z></Vector3><Color3uint8 name="Color3uint8">4280690224</Color3uint8><token name="Material">1088</token><token name="TopSurface">0</token><token name="BottomSurface">0</token></Properties></Item><Item class="Part" referent="RBX23"><Properties><string name="Name">NeonTorreEsq</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-13</X><Y>14</Y><Z>-3.25</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>26</Y><Z>0.15</Z></Vector3><Color3uint8 name="Color3uint8">4280677614</Color3uint8><token name="Material">288</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CanCollide">false</bool><bool name="CanQuery">false</bool><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX24"><Properties><string name="Name">TorreDir</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>13</X><Y>14</Y><Z>-4</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>1.4</X><Y>28</Y><Z>1.4</Z></Vector3><Color3uint8 name="Color3uint8">4280690224</Color3uint8><token name="Material">1088</token><token name="TopSurface">0</token><token name="BottomSurface">0</token></Properties></Item><Item class="Part" referent="RBX25"><Properties><string name="Name">NeonTorreDir</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>13</X><Y>14</Y><Z>-3.25</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>26</Y><Z>0.15</Z></Vector3><Color3uint8 name="Color3uint8">4294847573</Color3uint8><token name="Material">288</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CanCollide">false</bool><bool name="CanQuery">false</bool><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX26"><Properties><string name="Name">Travessa</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>0</X><Y>28</Y><Z>-4</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>27.4</X><Y>1.2</Y><Z>1.2</Z></Vector3><Color3uint8 name="Color3uint8">4280690224</Color3uint8><token name="Material">1088</token><token name="TopSurface">0</token><token name="BottomSurface">0</token></Properties></Item><Item class="Part" referent="RBX27"><Properties><string name="Name">Refletor1</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-9</X><Y>26.6</Y><Z>-4</Z><R00>-0.785636</R00><R01>0.57165</R01><R02>-0.236626</R02><R10>0</R10><R11>0.382465</R11><R12>0.92397</R12><R20>0.618689</R20><R21>0.725904</R21><R22>-0.300478</R22></CoordinateFrame><Vector3 name="size"><X>1.4</X><Y>1.4</Y><Z>2.2</Z></Vector3><Color3uint8 name="Color3uint8">4279505946</Color3uint8><token name="Material">1088</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX28"><Properties><string name="Name">Refletor2</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-3</X><Y>26.6</Y><Z>-4</Z><R00>-0.967231</R00><R01>0.24066</R01><R02>-0.080915</R02><R10>0</R10><R11>0.31869</R11><R12>0.947859</R12><R20>0.253898</R20><R21>0.916799</R21><R22>-0.308247</R22></CoordinateFrame><Vector3 name="size"><X>1.4</X><Y>1.4</Y><Z>2.2</Z></Vector3><Color3uint8 name="Color3uint8">4279505946</Color3uint8><token name="Material">1088</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX29"><Properties><string name="Name">Refletor3</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>3</X><Y>26.6</Y><Z>-4</Z><R00>-0.967231</R00><R01>-0.24066</R01><R02>0.080915</R02><R10>0</R10><R11>0.31869</R11><R12>0.947859</R12><R20>-0.253898</R20><R21>0.916799</R21><R22>-0.308247</R22></CoordinateFrame><Vector3 name="size"><X>1.4</X><Y>1.4</Y><Z>2.2</Z></Vector3><Color3uint8 name="Color3uint8">4279505946</Color3uint8><token name="Material">1088</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX30"><Properties><string name="Name">Refletor4</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>9</X><Y>26.6</Y><Z>-4</Z><R00>-0.785636</R00><R01>-0.57165</R01><R02>0.236626</R02><R10>0</R10><R11>0.382465</R11><R12>0.92397</R12><R20>-0.618689</R20><R21>0.725904</R21><R22>-0.300478</R22></CoordinateFrame><Vector3 name="size"><X>1.4</X><Y>1.4</Y><Z>2.2</Z></Vector3><Color3uint8 name="Color3uint8">4279505946</Color3uint8><token name="Material">1088</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX31"><Properties><string name="Name">CaixaEsq</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-12.5</X><Y>3.5</Y><Z>11</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>3.6</X><Y>7</Y><Z>3.6</Z></Vector3><Color3uint8 name="Color3uint8">4279374358</Color3uint8><token name="Material">272</token><token name="TopSurface">0</token><token name="BottomSurface">0</token></Properties></Item><Item class="Part" referent="RBX32"><Properties><string name="Name">NeonCaixaEsq</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-12.5</X><Y>6.4</Y><Z>12.85</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>2.8</X><Y>0.25</Y><Z>0.1</Z></Vector3><Color3uint8 name="Color3uint8">4280677614</Color3uint8><token name="Material">288</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CanCollide">false</bool><bool name="CanQuery">false</bool><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX33"><Properties><string name="Name">AltoEsq</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-12.5</X><Y>3</Y><Z>12.85</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>2.6</X><Y>2.6</Y><Z>0.1</Z></Vector3><Color3uint8 name="Color3uint8">4280821812</Color3uint8><token name="Material">1088</token><token name="TopSurface">0</token><token name="BottomSurface">0</token></Properties></Item><Item class="Part" referent="RBX34"><Properties><string name="Name">CaixaDir</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>12.5</X><Y>3.5</Y><Z>11</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>3.6</X><Y>7</Y><Z>3.6</Z></Vector3><Color3uint8 name="Color3uint8">4279374358</Color3uint8><token name="Material">272</token><token name="TopSurface">0</token><token name="BottomSurface">0</token></Properties></Item><Item class="Part" referent="RBX35"><Properties><string name="Name">NeonCaixaDir</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>12.5</X><Y>6.4</Y><Z>12.85</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>2.8</X><Y>0.25</Y><Z>0.1</Z></Vector3><Color3uint8 name="Color3uint8">4294847573</Color3uint8><token name="Material">288</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CanCollide">false</bool><bool name="CanQuery">false</bool><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX36"><Properties><string name="Name">AltoDir</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>12.5</X><Y>3</Y><Z>12.85</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>2.6</X><Y>2.6</Y><Z>0.1</Z></Vector3><Color3uint8 name="Color3uint8">4280821812</Color3uint8><token name="Material">1088</token><token name="TopSurface">0</token><token name="BottomSurface">0</token></Properties></Item><Item class="Folder" referent="RBX59"><Properties><string name="Name">Cidade</string></Properties><Item class="Part" referent="RBX37"><Properties><string name="Name">Predio1</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-75</X><Y>15</Y><Z>-70</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>11</X><Y>30</Y><Z>10</Z></Vector3><Color3uint8 name="Color3uint8">4279899692</Color3uint8><token name="Material">272</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX38"><Properties><string name="Name">Janela1</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-75</X><Y>16.5</Y><Z>-64.95</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>6.6</X><Y>21</Y><Z>0.1</Z></Vector3><Color3uint8 name="Color3uint8">4280677614</Color3uint8><token name="Material">288</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CanCollide">false</bool><bool name="CanQuery">false</bool><float name="Transparency">0.75</float><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX39"><Properties><string name="Name">Predio2</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-60</X><Y>16.5</Y><Z>-84</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>14</X><Y>33</Y><Z>10</Z></Vector3><Color3uint8 name="Color3uint8">4279899692</Color3uint8><token name="Material">272</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX40"><Properties><string name="Name">Janela2</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-60</X><Y>18.150000000000002</Y><Z>-78.95</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>8.4</X><Y>23.099999999999998</Y><Z>0.1</Z></Vector3><Color3uint8 name="Color3uint8">4294847573</Color3uint8><token name="Material">288</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CanCollide">false</bool><bool name="CanQuery">false</bool><float name="Transparency">0.75</float><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX41"><Properties><string name="Name">Predio3</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-45</X><Y>18</Y><Z>-98</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>11</X><Y>36</Y><Z>10</Z></Vector3><Color3uint8 name="Color3uint8">4279899692</Color3uint8><token name="Material">272</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX42"><Properties><string name="Name">Janela3</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-45</X><Y>19.8</Y><Z>-92.95</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>6.6</X><Y>25.2</Y><Z>0.1</Z></Vector3><Color3uint8 name="Color3uint8">4288041215</Color3uint8><token name="Material">288</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CanCollide">false</bool><bool name="CanQuery">false</bool><float name="Transparency">0.75</float><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX43"><Properties><string name="Name">Predio4</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-30</X><Y>19.5</Y><Z>-70</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>14</X><Y>39</Y><Z>10</Z></Vector3><Color3uint8 name="Color3uint8">4279899692</Color3uint8><token name="Material">272</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX44"><Properties><string name="Name">Janela4</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-30</X><Y>21.450000000000003</Y><Z>-64.95</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>8.4</X><Y>27.299999999999997</Y><Z>0.1</Z></Vector3><Color3uint8 name="Color3uint8">4280677614</Color3uint8><token name="Material">288</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CanCollide">false</bool><bool name="CanQuery">false</bool><float name="Transparency">0.75</float><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX45"><Properties><string name="Name">Predio5</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-15</X><Y>21</Y><Z>-84</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>11</X><Y>42</Y><Z>10</Z></Vector3><Color3uint8 name="Color3uint8">4279899692</Color3uint8><token name="Material">272</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX46"><Properties><string name="Name">Janela5</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-15</X><Y>23.1</Y><Z>-78.95</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>6.6</X><Y>29.4</Y><Z>0.1</Z></Vector3><Color3uint8 name="Color3uint8">4294847573</Color3uint8><token name="Material">288</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CanCollide">false</bool><bool name="CanQuery">false</bool><float name="Transparency">0.75</float><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX47"><Properties><string name="Name">Predio6</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>0</X><Y>22.5</Y><Z>-98</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>14</X><Y>45</Y><Z>10</Z></Vector3><Color3uint8 name="Color3uint8">4279899692</Color3uint8><token name="Material">272</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX48"><Properties><string name="Name">Janela6</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>0</X><Y>24.750000000000004</Y><Z>-92.95</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>8.4</X><Y>31.499999999999996</Y><Z>0.1</Z></Vector3><Color3uint8 name="Color3uint8">4288041215</Color3uint8><token name="Material">288</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CanCollide">false</bool><bool name="CanQuery">false</bool><float name="Transparency">0.75</float><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX49"><Properties><string name="Name">Predio7</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>15</X><Y>24</Y><Z>-70</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>11</X><Y>48</Y><Z>10</Z></Vector3><Color3uint8 name="Color3uint8">4279899692</Color3uint8><token name="Material">272</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX50"><Properties><string name="Name">Janela7</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>15</X><Y>26.400000000000002</Y><Z>-64.95</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>6.6</X><Y>33.599999999999994</Y><Z>0.1</Z></Vector3><Color3uint8 name="Color3uint8">4280677614</Color3uint8><token name="Material">288</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CanCollide">false</bool><bool name="CanQuery">false</bool><float name="Transparency">0.75</float><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX51"><Properties><string name="Name">Predio8</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>30</X><Y>25.5</Y><Z>-84</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>14</X><Y>51</Y><Z>10</Z></Vector3><Color3uint8 name="Color3uint8">4279899692</Color3uint8><token name="Material">272</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX52"><Properties><string name="Name">Janela8</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>30</X><Y>28.05</Y><Z>-78.95</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>8.4</X><Y>35.699999999999996</Y><Z>0.1</Z></Vector3><Color3uint8 name="Color3uint8">4294847573</Color3uint8><token name="Material">288</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CanCollide">false</bool><bool name="CanQuery">false</bool><float name="Transparency">0.75</float><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX53"><Properties><string name="Name">Predio9</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>45</X><Y>27</Y><Z>-98</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>11</X><Y>54</Y><Z>10</Z></Vector3><Color3uint8 name="Color3uint8">4279899692</Color3uint8><token name="Material">272</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX54"><Properties><string name="Name">Janela9</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>45</X><Y>29.700000000000003</Y><Z>-92.95</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>6.6</X><Y>37.8</Y><Z>0.1</Z></Vector3><Color3uint8 name="Color3uint8">4288041215</Color3uint8><token name="Material">288</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CanCollide">false</bool><bool name="CanQuery">false</bool><float name="Transparency">0.75</float><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX55"><Properties><string name="Name">Predio10</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>60</X><Y>28.5</Y><Z>-70</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>14</X><Y>57</Y><Z>10</Z></Vector3><Color3uint8 name="Color3uint8">4279899692</Color3uint8><token name="Material">272</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX56"><Properties><string name="Name">Janela10</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>60</X><Y>31.35</Y><Z>-64.95</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>8.4</X><Y>39.9</Y><Z>0.1</Z></Vector3><Color3uint8 name="Color3uint8">4280677614</Color3uint8><token name="Material">288</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CanCollide">false</bool><bool name="CanQuery">false</bool><float name="Transparency">0.75</float><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX57"><Properties><string name="Name">Predio11</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>75</X><Y>30</Y><Z>-84</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>11</X><Y>60</Y><Z>10</Z></Vector3><Color3uint8 name="Color3uint8">4279899692</Color3uint8><token name="Material">272</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CastShadow">false</bool></Properties></Item><Item class="Part" referent="RBX58"><Properties><string name="Name">Janela11</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>75</X><Y>33</Y><Z>-78.95</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>6.6</X><Y>42</Y><Z>0.1</Z></Vector3><Color3uint8 name="Color3uint8">4294847573</Color3uint8><token name="Material">288</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CanCollide">false</bool><bool name="CanQuery">false</bool><float name="Transparency">0.75</float><bool name="CastShadow">false</bool></Properties></Item></Item><Item class="Part" referent="RBX61"><Properties><string name="Name">LuzFrente</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>0</X><Y>16</Y><Z>34</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.94299</R11><R12>0.33282</R12><R20>0</R20><R21>-0.33282</R21><R22>0.94299</R22></CoordinateFrame><Vector3 name="size"><X>1</X><Y>1</Y><Z>1</Z></Vector3><Color3uint8 name="Color3uint8">4294967295</Color3uint8><token name="Material">256</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CanCollide">false</bool><bool name="CanQuery">false</bool><float name="Transparency">1</float><bool name="CastShadow">false</bool></Properties><Item class="SpotLight" referent="RBX60"><Properties><string name="Name">Luz</string><Color3 name="Color"><R>1</R><G>0.9254901960784314</G><B>0.8627450980392157</B></Color3><float name="Range">60</float><float name="Brightness">1.4</float><float name="Angle">70</float><token name="Face">5</token><bool name="Shadows">true</bool></Properties></Item></Item></Item><Item class="Part" referent="RBX62"><Properties><string name="Name">CameraLive</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>0</X><Y>12.5</Y><Z>43</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.998588</R11><R12>0.053116</R12><R20>0</R20><R21>-0.053116</R21><R22>0.998588</R22></CoordinateFrame><Vector3 name="size"><X>1</X><Y>1</Y><Z>1</Z></Vector3><Color3uint8 name="Color3uint8">4294967295</Color3uint8><token name="Material">256</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><bool name="CanCollide">false</bool><bool name="CanQuery">false</bool><float name="Transparency">1</float><bool name="CastShadow">false</bool></Properties></Item></Item>
+<Item class="Lighting" referent="RBX69"><Properties><string name="Name">Lighting</string><string name="TimeOfDay">20:45:00</string><float name="Brightness">1.2</float><float name="ExposureCompensation">0</float><Color3 name="Ambient"><R>0.27450980392156865</R><G>0.23529411764705882</G><B>0.4117647058823529</B></Color3><Color3 name="OutdoorAmbient"><R>0.37254901960784315</R><G>0.3333333333333333</G><B>0.5490196078431373</B></Color3><bool name="GlobalShadows">true</bool><token name="Technology">4</token><float name="EnvironmentDiffuseScale">1</float><float name="EnvironmentSpecularScale">1</float></Properties><Item class="Atmosphere" referent="RBX66"><Properties><string name="Name">Atmosphere</string><float name="Density">0.32</float><float name="Offset">0.2</float><Color3 name="Color"><R>0.43137254901960786</R><G>0.27450980392156865</G><B>0.6666666666666666</B></Color3><Color3 name="Decay"><R>0.27450980392156865</R><G>0.11764705882352941</G><B>0.47058823529411764</B></Color3><float name="Glare">0</float><float name="Haze">1.4</float></Properties></Item><Item class="BloomEffect" referent="RBX67"><Properties><string name="Name">Brilho</string><float name="Intensity">0.4</float><float name="Size">24</float><float name="Threshold">1.8</float></Properties></Item><Item class="ColorCorrectionEffect" referent="RBX68"><Properties><string name="Name">Cores</string><float name="Saturation">0.15</float><float name="Contrast">0.1</float></Properties></Item></Item>
+<Item class="Players" referent="RBX70"><Properties><string name="Name">Players</string><bool name="CharacterAutoLoads">false</bool></Properties></Item>
+<Item class="HttpService" referent="RBX71"><Properties><string name="Name">HttpService</string><bool name="HttpEnabled">true</bool></Properties></Item>
+<Item class="ServerScriptService" referent="RBX73"><Properties><string name="Name">ServerScriptService</string></Properties><Item class="Script" referent="RBX72"><Properties><string name="Name">AvataresDaLive</string><ProtectedString name="Source"><![CDATA[-- Avatares da Live — Live Arcade (Script em ServerScriptService)
+-- Quem comenta o nick do Roblox na live aparece dançando no palco com a skin de verdade.
+-- Os eventos vêm do launcher (http://localhost:21213/roblox/poll): abra o Live Arcade, conecte a live e aperte Play (F5) no Studio.
+
+local HttpService = game:GetService("HttpService")
+local Players = game:GetService("Players")
+local Debris = game:GetService("Debris")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local RunService = game:GetService("RunService")
+local TweenService = game:GetService("TweenService")
+
+-- ========== Configuração ==========
+local CFG = {
+	url = "http://localhost:21213/roblox/poll",
+	maxDancers = 20,        -- avatares no palco ao mesmo tempo (sai quem está há mais tempo sem interagir)
+	idleSeconds = 600,      -- avatar sai do palco depois desse tempo sem comentar nem mandar presente
+	commentCooldown = 3,    -- segundos entre comentários do mesmo usuário
+	effectSeconds = 12,     -- duração da dança especial, aura e gigante
+	rainCount = 24,         -- avatares na chuva (multiplicado pela quantidade do combo, até 3x)
+	giantScale = 2.5,
+}
+
+-- Presentes com ação fixa (nome em minúsculas, como chega do TikTok). Os outros seguem as moedas.
+local GIFT_ACTIONS = {
+	["rosa"] = "danca", ["rose"] = "danca",
+	["galáxia"] = "chuva", ["galaxy"] = "chuva",
+}
+local function actionByCoins(coins)
+	if coins >= 1000 then return "chuva" end
+	if coins >= 100 then return "gigante" end
+	if coins >= 5 then return "aura" end
+	return "danca"
+end
+local ACTION_LABEL = {
+	danca = "dança especial", aura = "aura brilhante", gigante = "avatar gigante", chuva = "chuva de avatares",
+}
+local GIFT_ICONS = {
+	["rosa"] = "🌹", ["rose"] = "🌹", ["rosa branca"] = "🤍", ["white rose"] = "🤍", ["gg"] = "🎮",
+	["coração"] = "💖", ["finger heart"] = "💖", ["perfume"] = "🧴", ["rosquinha"] = "🍩", ["doughnut"] = "🍩",
+	["mãos de coração"] = "🫶", ["hand hearts"] = "🫶", ["galáxia"] = "🌌", ["galaxy"] = "🌌", ["leão"] = "🦁", ["lion"] = "🦁",
+}
+
+-- Danças padrão do Roblox (R15), liberadas para qualquer jogo
+local DANCES = {
+	"rbxassetid://507771019", "rbxassetid://507771955", "rbxassetid://507772104",
+	"rbxassetid://507776043", "rbxassetid://507776720", "rbxassetid://507776879",
+	"rbxassetid://507777268", "rbxassetid://507777451", "rbxassetid://507777623",
+}
+local CHEER = "rbxassetid://507770677"
+
+-- Palavras comuns no chat que também são nicks válidos: não viram avatar
+local IGNORE = {}
+for _, w in ipairs({ "boa", "noite", "tarde", "bom", "dia", "oii", "oie", "eae", "salve", "bora", "top", "sim", "nao",
+	"vai", "que", "quero", "eu", "aqui", "amo", "lindo", "linda", "mano", "slk", "pfv", "dnv", "tmj", "vlw", "obg", "hello", "hii" }) do
+	IGNORE[w] = true
+end
+
+-- ========== Cena ==========
+local function stageBox()
+	local p = workspace:FindFirstChild("Palco")
+	if p and p:IsA("BasePart") then return p.CFrame, p.Size end
+	if p and p:IsA("Model") then return p:GetBoundingBox() end
+	return nil
+end
+
+-- Mapa vazio (script colado num Baseplate): monta um palco simples para funcionar de cara
+if not stageBox() then
+	local palco = Instance.new("Part")
+	palco.Name = "Palco"
+	palco.Anchored = true
+	palco.Size = Vector3.new(64, 2, 36)
+	palco.CFrame = CFrame.new(0, 1, 0)
+	palco.Color = Color3.fromRGB(28, 28, 40)
+	palco.Material = Enum.Material.SmoothPlastic
+	palco.Parent = workspace
+	local borda = Instance.new("Part")
+	borda.Name = "BordaNeon"
+	borda.Anchored = true
+	borda.CanCollide = false
+	borda.Size = Vector3.new(64, 0.4, 0.6)
+	borda.CFrame = CFrame.new(0, 2.1, 18)
+	borda.Color = Color3.fromRGB(37, 244, 238)
+	borda.Material = Enum.Material.Neon
+	borda.Parent = workspace
+end
+
+local stageCF, stageSize = stageBox()
+if not workspace:FindFirstChild("CameraLive") then
+	local cam = Instance.new("Part")
+	cam.Name = "CameraLive"
+	cam.Anchored = true
+	cam.CanCollide = false
+	cam.CanQuery = false
+	cam.Transparency = 1
+	cam.Size = Vector3.new(1, 1, 1)
+	local top = stageSize.Y / 2
+	cam.CFrame = CFrame.lookAt((stageCF * CFrame.new(0, top + 9, stageSize.Z / 2 + 20)).Position, (stageCF * CFrame.new(0, top + 3, 0)).Position)
+	cam.Parent = workspace
+end
+
+local folder = Instance.new("Folder")
+folder.Name = "AvataresDaLive"
+folder.Parent = workspace
+
+-- Sem personagem do streamer andando na frente da câmera
+Players.CharacterAutoLoads = false
+
+-- Avisos na tela de quem está no Play (o LocalScript AvataresTela desenha)
+local remote = ReplicatedStorage:FindFirstChild("AvataresFeed") or Instance.new("RemoteEvent")
+remote.Name = "AvataresFeed"
+remote.Parent = ReplicatedStorage
+
+local linkStatus = { ok = false, text = "Procurando o Live Arcade..." }
+local function setLink(ok, text)
+	if linkStatus.ok == ok and linkStatus.text == text then return end
+	linkStatus = { ok = ok, text = text }
+	remote:FireAllClients("status", linkStatus)
+	print("[Avatares da Live] " .. text)
+end
+Players.PlayerAdded:Connect(function(p) remote:FireClient(p, "status", linkStatus) end)
+
+local function feed(title, sub, userId, icon, color)
+	remote:FireAllClients("feed", { title = title, sub = sub, userId = userId, icon = icon, color = color })
+end
+
+-- ========== Posição no palco ==========
+-- O palco pode ter degraus (Model "Palco" com várias peças): a altura de cada ponto vem de um raio para baixo
+local rayParams = RaycastParams.new()
+rayParams.FilterType = Enum.RaycastFilterType.Include
+rayParams.FilterDescendantsInstances = { workspace:FindFirstChild("Palco") }
+
+local function groundAt(x, z)
+	local origin = (stageCF * CFrame.new(x, stageSize.Y / 2 + 30, z)).Position
+	local hit = workspace:Raycast(origin, Vector3.new(0, -(stageSize.Y + 60), 0), rayParams)
+	if hit and hit.Normal.Y > 0.7 then return hit.Position end
+	return nil
+end
+
+local function lookTarget(pos)
+	local cam = workspace:FindFirstChild("CameraLive")
+	local target = cam and cam.Position or (stageCF * CFrame.new(0, 0, stageSize.Z)).Position
+	return Vector3.new(target.X, pos.Y, target.Z)
+end
+
+-- Põe o modelo de pé no ponto do palco (pos.Y = chão), virado para a câmera; vale também depois de mudar a escala
+local function standAt(model, pos)
+	model:PivotTo(CFrame.lookAt(pos, lookTarget(pos)))
+	local cf, size = model:GetBoundingBox()
+	local bottom = cf.Position.Y - size.Y / 2
+	model:PivotTo(model:GetPivot() + Vector3.new(0, pos.Y - bottom, 0))
+end
+
+-- ========== Avatares ==========
+local dancers = {}      -- id do TikTok → { model, animator, track, spot, label, userId, lastSeen, token }
+local nameCache = {}    -- nick em minúsculas → userId
+local missCache = {}    -- nick em minúsculas → os.clock() da última vez que não existia
+local descCache = {}    -- userId → HumanoidDescription
+
+local function countDancers()
+	local n = 0
+	for _ in pairs(dancers) do n += 1 end
+	return n
+end
+
+local function freeSpot()
+	local margin = 2.5
+	local best, bestDist = nil, -1
+	for _ = 1, 40 do
+		local x = (math.random() - 0.5) * (stageSize.X - margin * 2)
+		local z = (math.random() - 0.5) * (stageSize.Z - margin * 2)
+		local pos = groundAt(x, z)
+		if pos then
+			local nearest = math.huge
+			for _, d in pairs(dancers) do nearest = math.min(nearest, (d.spot - pos).Magnitude) end
+			if nearest >= 4.5 then return pos end
+			if nearest > bestDist then best, bestDist = pos, nearest end
+		end
+	end
+	return best or (stageCF * CFrame.new(0, stageSize.Y / 2, 0)).Position
+end
+
+-- ========== Cenário: refletores, telão e flashes ==========
+-- Tudo opcional: só age sobre peças da pasta Workspace > Cenario com esses nomes
+local cenario = workspace:FindFirstChild("Cenario")
+local stageCenter = (stageCF * CFrame.new(0, stageSize.Y / 2, 0)).Position
+
+-- Refletor*: ganha luz e feixe e fica varrendo o palco trocando de cor
+local lights = {}
+for _, p in ipairs(cenario and cenario:GetDescendants() or {}) do
+	if p:IsA("BasePart") and p.Name:match("^Refletor") then
+		local spot = Instance.new("SpotLight")
+		spot.Face, spot.Angle, spot.Range, spot.Brightness = Enum.NormalId.Front, 35, 50, 2.5
+		spot.Parent = p
+		local a0 = Instance.new("Attachment")
+		a0.Position = Vector3.new(0, 0, -p.Size.Z / 2)
+		a0.Parent = p
+		local target = Instance.new("Part")
+		target.Anchored, target.CanCollide, target.CanQuery, target.Transparency, target.Size = true, false, false, 1, Vector3.one
+		target.Parent = folder
+		local a1 = Instance.new("Attachment")
+		a1.Parent = target
+		local beam = Instance.new("Beam")
+		beam.Attachment0, beam.Attachment1 = a0, a1
+		beam.Width0, beam.Width1 = 0.8, 8
+		beam.LightEmission, beam.LightInfluence = 1, 0
+		beam.FaceCamera = true
+		beam.Transparency = NumberSequence.new(0.72, 0.95)
+		beam.Parent = p
+		table.insert(lights, { part = p, spot = spot, beam = beam, target = target, base = p.Position, phase = #lights * 1.9 })
+	end
+end
+if #lights > 0 then
+	RunService.Heartbeat:Connect(function()
+		local t = os.clock()
+		for i, L in ipairs(lights) do
+			local aim = stageCenter + Vector3.new(math.sin(t * 0.7 + L.phase) * stageSize.X * 0.4, 0, math.cos(t * 0.45 + L.phase) * stageSize.Z * 0.4)
+			L.part.CFrame = CFrame.lookAt(L.base, aim)
+			L.target.Position = aim
+			local c = Color3.fromHSV((t * 0.05 + i * 0.25) % 1, 0.75, 1)
+			L.spot.Color = c
+			L.beam.Color = ColorSequence.new(c)
+		end
+	end)
+end
+
+-- Neon*: pisca na cor do presente grande
+local neons = {}
+for _, p in ipairs(cenario and cenario:GetDescendants() or {}) do
+	if p:IsA("BasePart") and p.Name:match("^Neon") then table.insert(neons, { part = p, color = p.Color }) end
+end
+local function flash(color)
+	for _, n in ipairs(neons) do
+		n.part.Color = color
+		TweenService:Create(n.part, TweenInfo.new(1.5), { Color = n.color }):Play()
+	end
+end
+
+-- Telao: placar com quantos estão dançando e o maior presente da live
+local telaoText = {}
+local topGift = {}       -- id do TikTok → { name, coins }
+local topGifter = nil
+local telao = cenario and cenario:FindFirstChild("Telao")
+if telao then
+	local cam = workspace:FindFirstChild("CameraLive")
+	local toCam = cam and (cam.Position - telao.Position) or Vector3.new(0, 0, 1)
+	local sg = Instance.new("SurfaceGui")
+	sg.Face = telao.CFrame.LookVector:Dot(toCam) > 0 and Enum.NormalId.Front or Enum.NormalId.Back
+	sg.SizingMode = Enum.SurfaceGuiSizingMode.PixelsPerStud
+	sg.PixelsPerStud = 40
+	sg.LightInfluence = 0
+	sg.Parent = telao
+	local bg = Instance.new("Frame")
+	bg.Size = UDim2.fromScale(1, 1)
+	bg.BackgroundColor3 = Color3.new(1, 1, 1)
+	bg.Parent = sg
+	local grad = Instance.new("UIGradient")
+	grad.Color = ColorSequence.new(Color3.fromRGB(40, 16, 90), Color3.fromRGB(120, 20, 80))
+	grad.Rotation = 90
+	grad.Parent = bg
+	local function line(name, y, h, font, color)
+		local l = Instance.new("TextLabel")
+		l.Name = name
+		l.BackgroundTransparency = 1
+		l.Position = UDim2.fromScale(0.06, y)
+		l.Size = UDim2.fromScale(0.88, h)
+		l.Font = font
+		l.TextScaled = true
+		l.TextColor3 = color
+		l.Text = ""
+		l.Parent = bg
+		telaoText[name] = l
+	end
+	line("Titulo", 0.06, 0.3, Enum.Font.GothamBlack, Color3.new(1, 1, 1))
+	line("Chamada", 0.38, 0.1, Enum.Font.GothamBold, Color3.fromRGB(37, 244, 238))
+	line("Contagem", 0.55, 0.13, Enum.Font.GothamBlack, Color3.new(1, 1, 1))
+	line("Top", 0.75, 0.1, Enum.Font.GothamBold, Color3.fromRGB(255, 210, 63))
+	telaoText.Titulo.Text = "AVATARES\nDA LIVE"
+	telaoText.Chamada.Text = "Comente seu nick do Roblox"
+end
+
+local function updateTelao()
+	if not telaoText.Contagem then return end
+	local n = countDancers()
+	telaoText.Contagem.Text = string.format("💃 %d dançando", n)
+	telaoText.Top.Text = topGifter and string.format("🏆 %s · %d moedas", topGifter.name, topGifter.coins) or "🏆 Mande um presente!"
+end
+updateTelao()
+
+local function removeDancer(id)
+	local d = dancers[id]
+	if not d then return end
+	dancers[id] = nil
+	updateTelao()
+	if d.model.Parent then
+		local root = d.model:FindFirstChild("HumanoidRootPart")
+		if root then
+			local puff = Instance.new("Part")
+			puff.Anchored, puff.CanCollide, puff.Transparency, puff.Size = true, false, 1, Vector3.one
+			puff.CFrame = root.CFrame
+			puff.Parent = workspace
+			local p = Instance.new("ParticleEmitter")
+			p.Rate, p.Speed, p.Lifetime, p.SpreadAngle = 0, NumberRange.new(6, 10), NumberRange.new(0.5, 0.8), Vector2.new(180, 180)
+			p.Parent = puff
+			p:Emit(25)
+			Debris:AddItem(puff, 1.5)
+		end
+		d.model:Destroy()
+	end
+end
+
+local function removeOldest()
+	local oldestId, oldest = nil, math.huge
+	for id, d in pairs(dancers) do
+		if d.lastSeen < oldest then oldestId, oldest = id, d.lastSeen end
+	end
+	if oldestId then removeDancer(oldestId) end
+end
+
+local function playDance(d, animId, speed)
+	if d.track then d.track:Stop(0.25); d.track:Destroy() end
+	local anim = Instance.new("Animation")
+	anim.AnimationId = animId
+	local ok, track = pcall(function() return d.animator:LoadAnimation(anim) end)
+	if not ok then warn("[Avatares da Live] Animação falhou: " .. tostring(track)); return end
+	track.Looped = true
+	track.Priority = Enum.AnimationPriority.Action
+	track:Play(0.25, 1, speed or 1)
+	d.track = track
+end
+
+local SKINS = { Color3.fromRGB(255, 220, 180), Color3.fromRGB(234, 184, 146), Color3.fromRGB(198, 134, 66),
+	Color3.fromRGB(141, 85, 36), Color3.fromRGB(90, 56, 37), Color3.fromRGB(245, 205, 48) }
+-- Quem manda presente sem ter comentado o nick ganha um avatar padrão com cores aleatórias
+local function guestDescription()
+	local d = Instance.new("HumanoidDescription")
+	local skin = SKINS[math.random(#SKINS)]
+	local shirt = Color3.fromHSV(math.random(), 0.65, 0.95)
+	local pants = Color3.fromHSV(math.random(), 0.5, 0.45)
+	d.HeadColor, d.LeftArmColor, d.RightArmColor = skin, skin, skin
+	d.TorsoColor = shirt
+	d.LeftLegColor, d.RightLegColor = pants, pants
+	return d
+end
+
+local function nameTag(model, text)
+	local head = model:FindFirstChild("Head")
+	if not head then return end
+	-- Tamanho em studs: o nome encolhe com a distância, como no Roblox, e quem está atrás fica escondido
+	local gui = Instance.new("BillboardGui")
+	gui.Name = "NomeLive"
+	gui.Size = UDim2.fromScale(5, 0.8)
+	gui.StudsOffset = Vector3.new(0, 1.8, 0)
+	gui.LightInfluence = 0
+	gui.MaxDistance = 150
+	local label = Instance.new("TextLabel")
+	label.Size = UDim2.fromScale(1, 1)
+	label.BackgroundTransparency = 1
+	label.Font = Enum.Font.GothamBold
+	label.TextScaled = true
+	label.TextColor3 = Color3.new(1, 1, 1)
+	label.TextStrokeTransparency = 0.2
+	label.Text = text
+	label.Parent = gui
+	gui.Parent = head
+end
+
+local function getDescription(userId)
+	if not userId then return guestDescription() end
+	local desc = descCache[userId]
+	if not desc then
+		local ok, res = pcall(Players.GetHumanoidDescriptionFromUserId, Players, userId)
+		if not ok then warn("[Avatares da Live] Skin de " .. userId .. " falhou: " .. tostring(res)); return guestDescription() end
+		desc = res
+		descCache[userId] = desc
+	end
+	return desc:Clone()
+end
+
+local function spawnDancer(id, userId, label)
+	removeDancer(id)
+	local ok, model = pcall(Players.CreateHumanoidModelFromDescription, Players, getDescription(userId), Enum.HumanoidRigType.R15)
+	if not ok then warn("[Avatares da Live] Não consegui montar o avatar: " .. tostring(model)); return nil end
+	-- Pode ter chegado outro pedido para o mesmo usuário enquanto a skin carregava
+	removeDancer(id)
+	while countDancers() >= CFG.maxDancers do removeOldest() end
+
+	model.Name = label
+	local hum = model:FindFirstChildOfClass("Humanoid")
+	hum.DisplayDistanceType = Enum.HumanoidDisplayDistanceType.None
+	hum.BreakJointsOnDeath = false
+	local animate = model:FindFirstChild("Animate")
+	if animate then animate:Destroy() end
+	model.HumanoidRootPart.Anchored = true
+	nameTag(model, label)
+
+	local spot = freeSpot()
+	model.Parent = folder
+	standAt(model, spot)
+
+	local d = {
+		model = model, spot = spot, label = label, userId = userId, lastSeen = os.clock(), token = 0,
+		animator = hum:FindFirstChildOfClass("Animator") or Instance.new("Animator", hum),
+		dance = DANCES[math.random(#DANCES)],
+	}
+	dancers[id] = d
+	updateTelao()
+	playDance(d, d.dance, 0.9 + math.random() * 0.3)
+
+	local sparkle = Instance.new("ParticleEmitter")
+	sparkle.Rate = 0
+	sparkle.Speed = NumberRange.new(4, 8)
+	sparkle.SpreadAngle = Vector2.new(180, 180)
+	sparkle.Color = ColorSequence.new(Color3.fromRGB(37, 244, 238), Color3.fromRGB(254, 44, 85))
+	sparkle.LightEmission = 1
+	sparkle.Parent = model.HumanoidRootPart
+	sparkle:Emit(30)
+	Debris:AddItem(sparkle, 2)
+	return d
+end
+
+-- ========== Efeitos dos presentes ==========
+-- Cada efeito novo invalida o anterior do mesmo avatar (token), para o "voltar ao normal" não atropelar outro
+local function effectEnd(d, fn)
+	d.token += 1
+	local token = d.token
+	task.delay(CFG.effectSeconds, function()
+		if d.token == token and d.model.Parent then fn() end
+	end)
+end
+
+local function addAura(d, color)
+	local root = d.model.HumanoidRootPart
+	local aura = Instance.new("ParticleEmitter")
+	aura.Name = "AuraLive"
+	aura.Color = ColorSequence.new(color)
+	aura.LightEmission = 0.6
+	aura.Rate = 35
+	aura.Lifetime = NumberRange.new(0.8, 1.4)
+	aura.Speed = NumberRange.new(1.5, 3)
+	aura.SpreadAngle = Vector2.new(180, 180)
+	aura.Size = NumberSequence.new({ NumberSequenceKeypoint.new(0, 0.6), NumberSequenceKeypoint.new(1, 0) })
+	aura.Parent = root
+	local light = Instance.new("PointLight")
+	light.Color, light.Brightness, light.Range = color, 1.2, 10
+	light.Parent = root
+	Debris:AddItem(aura, CFG.effectSeconds)
+	Debris:AddItem(light, CFG.effectSeconds)
+end
+
+local EFFECTS = {}
+
+function EFFECTS.danca(d)
+	local special
+	repeat special = DANCES[math.random(#DANCES)] until special ~= d.dance or #DANCES == 1
+	playDance(d, special, 1.35)
+	local sparkles = Instance.new("Sparkles")
+	sparkles.SparkleColor = Color3.fromRGB(254, 44, 85)
+	sparkles.Parent = d.model.HumanoidRootPart
+	Debris:AddItem(sparkles, CFG.effectSeconds)
+	effectEnd(d, function() playDance(d, d.dance, 1) end)
+end
+
+function EFFECTS.aura(d)
+	addAura(d, Color3.fromHSV(math.random(), 0.8, 1))
+	playDance(d, CHEER, 1)
+	effectEnd(d, function() playDance(d, d.dance, 1) end)
+end
+
+function EFFECTS.gigante(d)
+	d.model:ScaleTo(CFG.giantScale)
+	standAt(d.model, d.spot)
+	addAura(d, Color3.fromRGB(255, 210, 63))
+	effectEnd(d, function()
+		d.model:ScaleTo(1)
+		standAt(d.model, d.spot)
+	end)
+end
+
+local rainSources = {}
+function EFFECTS.chuva(d, count)
+	EFFECTS.danca(d)
+	-- Chove a skin de quem está no palco; com o palco vazio, avatares padrão
+	local sources = {}
+	for _, other in pairs(dancers) do table.insert(sources, other.model) end
+	if #sources == 0 then
+		if #rainSources == 0 then
+			for _ = 1, 4 do
+				local ok, m = pcall(Players.CreateHumanoidModelFromDescription, Players, guestDescription(), Enum.HumanoidRigType.R15)
+				if ok then table.insert(rainSources, m) end
+			end
+		end
+		sources = rainSources
+	end
+	if #sources == 0 then return end
+
+	local total = CFG.rainCount * math.min(count, 3)
+	for k = 1, total do
+		local m = sources[math.random(#sources)]:Clone()
+		for _, item in ipairs(m:GetDescendants()) do
+			if item:IsA("BillboardGui") or item:IsA("ParticleEmitter") or item:IsA("Sparkles") or item:IsA("PointLight") then item:Destroy() end
+		end
+		if m:FindFirstChild("Animate") then m.Animate:Destroy() end
+		m:ScaleTo(1)
+		local hum = m:FindFirstChildOfClass("Humanoid")
+		hum.DisplayDistanceType = Enum.HumanoidDisplayDistanceType.None
+		hum.BreakJointsOnDeath = false
+		local x = (math.random() - 0.5) * stageSize.X
+		local z = (math.random() - 0.5) * stageSize.Z
+		local pos = (stageCF * CFrame.new(x, stageSize.Y / 2 + 40 + math.random() * 30, z)).Position
+		m:PivotTo(CFrame.new(pos) * CFrame.Angles(math.random() * 6.28, math.random() * 6.28, 0))
+		m.HumanoidRootPart.Anchored = false
+		m.Parent = folder
+		hum:ChangeState(Enum.HumanoidStateType.Physics) -- cai rodando, sem tentar ficar de pé
+		m.HumanoidRootPart.AssemblyAngularVelocity = Vector3.new(math.random(-6, 6), math.random(-6, 6), math.random(-6, 6))
+		Debris:AddItem(m, 7)
+		if k % 6 == 0 then task.wait(0.05) end
+	end
+end
+
+-- ========== Eventos da live ==========
+local function parseNick(text)
+	text = (text or ""):match("^%s*(.-)%s*$")
+	local nick = text:match("^@?([%w_]+)$")
+	if not nick or #nick < 3 or #nick > 20 then return nil end
+	if nick:match("^_") or nick:match("_$") or select(2, nick:gsub("_", "")) > 1 then return nil end
+	local low = nick:lower()
+	if low:match("^%d+$") or low:match("^k+$") or low:match("^[ah]+$") or low:match("^[eh]+$") or low:match("^[rs]+$") or IGNORE[low] then return nil end
+	return nick
+end
+
+local function userIdFromName(nick)
+	local key = nick:lower()
+	if nameCache[key] then return nameCache[key] end
+	if missCache[key] and os.clock() - missCache[key] < 120 then return nil end
+	local ok, id = pcall(Players.GetUserIdFromNameAsync, Players, nick)
+	if ok and id then nameCache[key] = id; return id end
+	missCache[key] = os.clock()
+	return nil
+end
+
+local lastComment = {}
+
+local function onComment(e)
+	local id = e.user.id
+	local nick = parseNick(e.text)
+	if not nick then return end
+	local now = os.clock()
+	if lastComment[id] and now - lastComment[id] < CFG.commentCooldown then return end
+	lastComment[id] = now
+
+	local current = dancers[id]
+	if current and current.label:lower() == nick:lower() then
+		current.lastSeen = now -- já está no palco: só renova
+		return
+	end
+	local userId = userIdFromName(nick)
+	if not userId then return end
+	local d = spawnDancer(id, userId, nick)
+	if d then feed(nick .. " entrou na pista", "💃 dançando", userId, nil, nil) end
+end
+
+local function onGift(e)
+	local gift = e.gift or {}
+	local name = tostring(gift.name or "Presente")
+	local key = name:lower()
+	local count = math.max(1, tonumber(gift.count) or 1)
+	local coins = tonumber(gift.coins) or 1
+	local action = GIFT_ACTIONS[key] or actionByCoins(coins)
+
+	local id = e.user.id
+	local d = dancers[id]
+	if not d then
+		d = spawnDancer(id, nil, e.user.nickname or id)
+		if not d then return end
+	end
+	d.lastSeen = os.clock()
+	EFFECTS[action](d, count)
+	if action == "chuva" or action == "gigante" then flash(Color3.fromRGB(255, 210, 63))
+	elseif action == "aura" then flash(Color3.fromHSV(math.random(), 0.8, 1)) end
+
+	local g = topGift[id] or { name = e.user.nickname or id, coins = 0 }
+	topGift[id] = g
+	g.coins += coins * count
+	if not topGifter or g.coins > topGifter.coins then topGifter = g end
+	updateTelao()
+	feed(string.format("%s mandou %s%s", e.user.nickname or id, name, count > 1 and (" ×" .. count) or ""),
+		ACTION_LABEL[action], d.userId, GIFT_ICONS[key] or "🎁", action == "chuva" and Color3.fromRGB(255, 210, 63) or nil)
+end
+
+local queue = {}
+local function handle(e)
+	if not e.user then return end
+	if e.type == "comment" then onComment(e)
+	elseif e.type == "gift" then onGift(e) end
+end
+
+-- Um evento por vez: buscar skin espera a resposta do Roblox, e a ordem do chat fica preservada
+task.spawn(function()
+	while true do
+		local e = table.remove(queue, 1)
+		if e then
+			local ok, err = pcall(handle, e)
+			if not ok then warn("[Avatares da Live] Erro no evento: " .. tostring(err)) end
+		else
+			task.wait(0.05)
+		end
+	end
+end)
+
+local function enqueue(e)
+	-- Live muito movimentada: descarta comentários antigos, nunca presentes
+	if #queue > 60 and e.type == "comment" then return end
+	table.insert(queue, e)
+end
+
+-- ========== Limpeza ==========
+task.spawn(function()
+	while true do
+		task.wait(5)
+		local now = os.clock()
+		for id, d in pairs(dancers) do
+			if now - d.lastSeen > CFG.idleSeconds then removeDancer(id) end
+		end
+	end
+end)
+
+-- ========== Conexão com o launcher ==========
+local STATUS_TEXT = {
+	connected = "Conectado à live",
+	connecting = "Conectando na live...",
+}
+task.spawn(function()
+	local since = nil
+	while true do
+		local url = since and (CFG.url .. "?since=" .. since) or CFG.url
+		local ok, res = pcall(HttpService.GetAsync, HttpService, url, true)
+		if ok then
+			local okJson, data = pcall(HttpService.JSONDecode, HttpService, res)
+			if okJson and type(data) == "table" then
+				local st = data.status or {}
+				if st.state == "connected" then
+					setLink(true, st.mode == "sim" and "Simulação do launcher" or STATUS_TEXT.connected)
+				else
+					setLink(false, STATUS_TEXT[st.state] or "Launcher aberto, live desconectada")
+				end
+				for _, e in ipairs(data.events or {}) do enqueue(e) end
+				since = data.seq
+			else
+				task.wait(1)
+			end
+		else
+			local msg = tostring(res)
+			if msg:find("not enabled") or msg:find("HttpEnabled") then
+				setLink(false, "Ative Game Settings > Security > Allow HTTP Requests")
+				task.wait(5)
+			else
+				setLink(false, "Abra o Live Arcade neste computador")
+				since = nil
+				task.wait(2)
+			end
+		end
+	end
+end)
+]]></ProtectedString></Properties></Item></Item>
+<Item class="StarterPlayer" referent="RBX76"><Properties><string name="Name">StarterPlayer</string></Properties><Item class="StarterPlayerScripts" referent="RBX75"><Properties><string name="Name">StarterPlayerScripts</string></Properties><Item class="LocalScript" referent="RBX74"><Properties><string name="Name">AvataresTela</string><ProtectedString name="Source"><![CDATA[-- Avatares da Live — tela do streamer (LocalScript em StarterPlayer > StarterPlayerScripts)
+-- Câmera fixa no palco (peça "CameraLive") e avisos de quem entrou ou mandou presente.
+-- A interface fica numa faixa central 9:16, que é a parte da janela recortada para a live vertical.
+-- Tecla G mostra/esconde a moldura da faixa, para acertar o recorte no TikTok LIVE Studio / OBS.
+
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local StarterGui = game:GetService("StarterGui")
+local TweenService = game:GetService("TweenService")
+local TextChatService = game:GetService("TextChatService")
+local UserInputService = game:GetService("UserInputService")
+
+local player = Players.LocalPlayer
+local VERTICAL = true -- false: usa a janela inteira (live horizontal)
+local ACCENT = Color3.fromRGB(37, 244, 238)
+local MAX_TOASTS = 3
+local TOAST_SECONDS = 7
+
+-- Tela limpa para a captura: sem chat, lista de jogadores e botões do Roblox no topo.
+-- A interface do Roblox carrega aos poucos e religa partes dela, então reaplica nos primeiros segundos.
+task.spawn(function()
+	for _ = 1, 30 do
+		pcall(StarterGui.SetCoreGuiEnabled, StarterGui, Enum.CoreGuiType.All, false)
+		pcall(StarterGui.SetCore, StarterGui, "TopbarEnabled", false)
+		for _, name in ipairs({ "ChatWindowConfiguration", "ChatInputBarConfiguration" }) do
+			local conf = TextChatService:FindFirstChild(name)
+			if conf then pcall(function() conf.Enabled = false end) end
+		end
+		task.wait(0.5)
+	end
+end)
+
+-- ========== Câmera ==========
+task.spawn(function()
+	local camPart = workspace:WaitForChild("CameraLive", 30)
+	if not camPart then return end
+	local function fix()
+		local cam = workspace.CurrentCamera
+		cam.CameraType = Enum.CameraType.Scriptable
+		cam.FieldOfView = camPart:GetAttribute("FOV") or 70
+		cam.CFrame = camPart.CFrame
+	end
+	fix()
+	camPart:GetPropertyChangedSignal("CFrame"):Connect(fix)
+	-- O Roblox devolve a câmera ao modo normal em algumas situações
+	workspace.CurrentCamera:GetPropertyChangedSignal("CameraType"):Connect(function()
+		if workspace.CurrentCamera.CameraType ~= Enum.CameraType.Scriptable then task.defer(fix) end
+	end)
+end)
+
+-- ========== Interface ==========
+local gui = Instance.new("ScreenGui")
+gui.Name = "AvataresDaLive"
+gui.IgnoreGuiInset = true
+gui.ResetOnSpawn = false
+gui.Parent = player:WaitForChild("PlayerGui")
+
+-- Faixa central: tudo abaixo é medido em proporção dela, então o visual é igual em qualquer tamanho de janela
+local safe = Instance.new("Frame")
+safe.Name = "Faixa"
+safe.AnchorPoint = Vector2.new(0.5, 0.5)
+safe.Position = UDim2.fromScale(0.5, 0.5)
+safe.Size = UDim2.fromScale(1, 1)
+safe.BackgroundTransparency = 1
+safe.Parent = gui
+if VERTICAL then
+	local ar = Instance.new("UIAspectRatioConstraint")
+	ar.AspectRatio = 9 / 16
+	ar.AspectType = Enum.AspectType.FitWithinMaxSize
+	ar.Parent = safe
+end
+
+local guide = Instance.new("UIStroke")
+guide.Color = Color3.fromRGB(255, 210, 63)
+guide.Thickness = 3
+guide.Enabled = false
+guide.Parent = safe
+UserInputService.InputBegan:Connect(function(input, processed)
+	if not processed and input.KeyCode == Enum.KeyCode.G then guide.Enabled = not guide.Enabled end
+end)
+
+local function corner(parent, scale)
+	local c = Instance.new("UICorner")
+	c.CornerRadius = UDim.new(scale, 0)
+	c.Parent = parent
+end
+
+local function stroke(parent, color, t)
+	local s = Instance.new("UIStroke")
+	s.Color, s.Thickness, s.Transparency = color, 2, t or 0.2
+	s.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+	s.Parent = parent
+end
+
+local function label(parent, font, color)
+	local l = Instance.new("TextLabel")
+	l.BackgroundTransparency = 1
+	l.Font = font
+	l.TextScaled = true
+	l.TextColor3 = color
+	l.Parent = parent
+	return l
+end
+
+-- Chamada no topo
+local header = Instance.new("Frame")
+header.AnchorPoint = Vector2.new(0.5, 0)
+header.Position = UDim2.fromScale(0.5, 0.03)
+header.Size = UDim2.fromScale(0.9, 0.075)
+header.BackgroundColor3 = Color3.fromRGB(14, 14, 24)
+header.BackgroundTransparency = 0.15
+header.Parent = safe
+corner(header, 0.25)
+stroke(header, ACCENT)
+local headTop = label(header, Enum.Font.GothamBlack, Color3.new(1, 1, 1))
+headTop.Position = UDim2.fromScale(0.05, 0.08)
+headTop.Size = UDim2.fromScale(0.9, 0.52)
+headTop.Text = "COMENTE SEU NICK DO ROBLOX"
+local headSub = label(header, Enum.Font.GothamBold, ACCENT)
+headSub.Position = UDim2.fromScale(0.05, 0.6)
+headSub.Size = UDim2.fromScale(0.9, 0.3)
+headSub.Text = "e apareça dançando com a sua skin 💃"
+
+-- Situação da conexão (rodapé da faixa)
+local status = label(safe, Enum.Font.GothamBold, Color3.fromRGB(255, 120, 120))
+status.Position = UDim2.fromScale(0.05, 0.955)
+status.Size = UDim2.fromScale(0.9, 0.022)
+status.TextXAlignment = Enum.TextXAlignment.Left
+status.TextStrokeTransparency = 0.4
+status.Text = "● Procurando o Live Arcade..."
+
+-- Avisos no chão vazio abaixo do palco, para não cobrir o telão; o mais novo entra embaixo
+local list = Instance.new("Frame")
+list.Position = UDim2.fromScale(0.04, 0.735)
+list.Size = UDim2.fromScale(0.7, 0.21)
+list.BackgroundTransparency = 1
+list.Parent = safe
+local layout = Instance.new("UIListLayout")
+layout.SortOrder = Enum.SortOrder.LayoutOrder
+layout.VerticalAlignment = Enum.VerticalAlignment.Bottom
+layout.Padding = UDim.new(0.04, 0)
+layout.Parent = list
+
+local order = 0
+local function toast(data)
+	order += 1
+	local color = data.color or ACCENT
+
+	local card = Instance.new("Frame")
+	card.LayoutOrder = order
+	card.Size = UDim2.fromScale(1, 0.3)
+	card.BackgroundColor3 = Color3.fromRGB(16, 16, 28)
+	card.BackgroundTransparency = 0.1
+	corner(card, 0.2)
+	stroke(card, color, 0.35)
+
+	local icon
+	if data.userId then
+		icon = Instance.new("ImageLabel")
+		icon.Image = string.format("rbxthumb://type=AvatarHeadShot&id=%d&w=150&h=150", data.userId)
+		icon.BackgroundColor3 = Color3.fromRGB(40, 40, 60)
+	else
+		icon = label(card, Enum.Font.GothamBold, Color3.new(1, 1, 1))
+		icon.Text = data.icon or "🎁"
+	end
+	icon.AnchorPoint = Vector2.new(0, 0.5)
+	icon.Position = UDim2.fromScale(0.03, 0.5)
+	icon.Size = UDim2.fromScale(0.75, 0.75)
+	icon.SizeConstraint = Enum.SizeConstraint.RelativeYY
+	icon.Parent = card
+	corner(icon, 0.5)
+
+	local title = label(card, Enum.Font.GothamBold, Color3.new(1, 1, 1))
+	title.Position = UDim2.fromScale(0.22, 0.12)
+	title.Size = UDim2.fromScale(0.74, 0.42)
+	title.TextXAlignment = Enum.TextXAlignment.Left
+	title.TextTruncate = Enum.TextTruncate.AtEnd
+	title.Text = data.title or ""
+
+	local sub = label(card, Enum.Font.Code, color)
+	sub.Position = UDim2.fromScale(0.22, 0.56)
+	sub.Size = UDim2.fromScale(0.74, 0.32)
+	sub.TextXAlignment = Enum.TextXAlignment.Left
+	sub.Text = data.sub or ""
+
+	-- Textos do mesmo tamanho em todos os avisos, mesmo com nomes compridos
+	for _, l in ipairs({ title, sub }) do
+		local c = Instance.new("UITextSizeConstraint")
+		c.MaxTextSize = l == title and 30 or 24
+		c.Parent = l
+	end
+
+	card.Parent = list
+	local cards = {}
+	for _, c in ipairs(list:GetChildren()) do if c:IsA("Frame") then table.insert(cards, c) end end
+	table.sort(cards, function(a, b) return a.LayoutOrder > b.LayoutOrder end)
+	for i = MAX_TOASTS + 1, #cards do cards[i]:Destroy() end
+
+	task.delay(TOAST_SECONDS, function()
+		if not card.Parent then return end
+		local info = TweenInfo.new(0.4)
+		for _, item in ipairs(card:GetDescendants()) do
+			if item:IsA("TextLabel") then TweenService:Create(item, info, { TextTransparency = 1 }):Play() end
+			if item:IsA("ImageLabel") then TweenService:Create(item, info, { ImageTransparency = 1, BackgroundTransparency = 1 }):Play() end
+			if item:IsA("UIStroke") then TweenService:Create(item, info, { Transparency = 1 }):Play() end
+		end
+		TweenService:Create(card, info, { BackgroundTransparency = 1 }):Play()
+		task.wait(0.45)
+		card:Destroy()
+	end)
+end
+
+local remote = ReplicatedStorage:WaitForChild("AvataresFeed")
+remote.OnClientEvent:Connect(function(kind, data)
+	if kind == "feed" then
+		toast(data)
+	elseif kind == "status" then
+		status.Text = "● " .. data.text
+		status.TextColor3 = data.ok and Color3.fromRGB(80, 230, 140) or Color3.fromRGB(255, 120, 120)
+	end
+end)
+]]></ProtectedString></Properties></Item></Item></Item>
+</roblox>
