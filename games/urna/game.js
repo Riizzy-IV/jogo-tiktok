@@ -397,6 +397,8 @@ function resetVotes() {
   st = freshState();
   shown[0] = shown[1] = 0;
   choice.clear();
+  lastVote.clear();
+  clearTimeout(saveTimer);
   save('urna2.state', st);
   render();
   tick();
@@ -419,10 +421,13 @@ function frame(now) {
   const dt = Math.min(0.05, (now - lastFrame) / 1000);
   lastFrame = now;
   cards.forEach((c, i) => {
-    if (shown[i] === st.points[i]) return;
-    shown[i] += (st.points[i] - shown[i]) * Math.min(1, dt * 8);
-    if (Math.abs(st.points[i] - shown[i]) < 0.5) shown[i] = st.points[i];
-    c.points.textContent = fmt(shown[i]);
+    if (shown[i] !== st.points[i]) {
+      shown[i] += (st.points[i] - shown[i]) * Math.min(1, dt * 8);
+      if (Math.abs(st.points[i] - shown[i]) < 0.5) shown[i] = st.points[i];
+    }
+    // Compara com o texto da tela: após zerar a rodada ou recriar os cards o valor pode já estar "certo" mas o texto não
+    const txt = fmt(shown[i]);
+    if (c.points.textContent !== txt) c.points.textContent = txt;
   });
   fx.clearRect(0, 0, W, H);
   for (const p of parts) {
